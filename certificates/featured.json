@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Idea Show 3.0",
+      "issuer": "CHARUSAT University",
+      "image": "featured_ideashow",
+      "date":"October-2024",
+      "link": "https://drive.google.com/file/d/1izDTJdsRU6mpiF_5qxLzKt7Bnnwd1urx/view?usp=sharing"
+    },
+    {
+        "name": "Crtical Bug",
+        "issuer": "Apna Nivesh",
+        "image": "featured_bug",
+        "date":"February-2024",
+        "link": "https://drive.google.com/file/d/1mfxhxIm0rYsV71oRUNH1IOHVDIy0J_vO/view?usp=sharing"
+    },
+    {
+      "name": "Internshala Student Partner",
+      "issuer": "Internshala",
+      "image": "featured_isp",
+      "date":"January-2024",
+      "link": "https://drive.google.com/file/d/1rK6DKEid41Rm3rlvs-NnXph_W8r4QCyN/view?usp=sharing"
+    },
+    {
+      "name": "Poster Competition",
+      "issuer": "CHARUSAT University",
+      "image": "featured_six",
+      "date":"December-2023",
+      "link": "https://drive.google.com/file/d/1eQUIEP4pMk7vQp600YAbZ2QXRHRgPSuv/view?usp=sharing"
+    },
+    {
+      "name": "Galactic Problem Solver",
+      "issuer": "NASA Space Apps",
+      "image": "featured_nasa",
+      "date":"October-2024",
+      "link": "https://drive.google.com/file/d/1IVW7i4gbvB5Y-JDHGVIL6SNSi1H_fD3R/view?usp=sharing"
+    },
+    {
+      "name": "Mari Best Click",
+      "issuer": "The Sandesh ltd.",
+      "image": "featured_sandesh", 
+      "date":"June-2023",
+      "link": "https://drive.google.com/file/d/11Zdf6AxeE4sYl1yZR_NqEyO4ntLbNdjD/view?usp=sharing"
+    }
+  ]  

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Machine Learning & Data Science Expert",
+    "issuer": "CHARUSAT University",
+    "image": "cert_ml",
+    "category": "course",
+    "date":"November-2024",
+    "links": {
+      "view": "https://drive.google.com/file/d/1dXVau4YcFQ1SJoZY5Z-RQHIVxjPFXTjb/view?usp=sharing"
+    }
+  },
+  {
+    "name": "Canva Essentials",
+    "issuer": "Canva",
+    "image": "cert_canva",
+    "category": "course",
+    "date":"October-2024",
+    "links": {
+      "view": "https://www.canva.com/designschool/certification-award/cc43637a-56c5-4ce2-b008-c008e6776a69?"
+    }
+  },
+  {
+    "name": "Postman API Fundamentals Student Expert",
+    "issuer": "Postman",
+    "image": "cert_postman",
+    "category": "course",
+    "date":"October-2024",
+    "links": {
+      "view": "https://badgr.com/public/assertions/-By_ZEt6QdWw11VGUi-LAA"
+    }
+  },
+  {
+    "name": "Google Play Store Listing",
+    "issuer": "Google",
+    "image": "cert_lisiting",
+    "category": "playstorelisting",
+    "date":"July-2024",
+    "links": {
+      "view": "https://www.credential.net/cbb993b9-7d35-4282-bf5b-d27663bbd8a7"
+    }
+  },
+  {
+    "name": "Android App Developement",
+    "issuer": "Internshala Trainings",
+    "image": "cert_android",
+    "category": "course",
+    "date":"March-2024",
+    "links": {
+      "view": "https://trainings.internshala.com/view_certificate/9k5pbn5c4ib/eag8ql50h36/"
+    }
+  },
+  {
+    "name": "Foundation of Digital Marketing & E-Commerce",
+    "issuer": "Courseera",
+    "image": "cert_coursera_digitalmarkting",
+    "category": "course",
+    "date":"February-2024",
+    "links": {
+      "view": "https://www.coursera.org/account/accomplishments/verify/KZ8ZVBY8N6YV"
+    }
+  },
+  {
+    "name": "Digital Marketing Expert",
+    "issuer": "Indian Council for Technical Research and Developement",
+    "image": "cert_icrtd",
+    "category": "course",
+    "date":"February-2024",
+    "links": {
+      "view": "https://www.ictrd.org/TID/16965086"
+    }
+  },
+  {
+    "name": "Digital Marketing Course",
+    "issuer": "CHARUSAT University",
+    "image": "cert_digitalmartketing",
+    "category": "course",
+    "date":"October-2023",
+    "links": {
+      "view": "https://drive.google.com/file/d/1jCH9QA96Pz4CQQrdyv1t_kQI_Ayk4i_W/view?usp=sharing"
+    }
+  },
+  {
+    "name": "Cyber Security & Privacy",
+    "issuer": "NPTEL",
+    "image": "cert_nptel",
+    "category": "course",
+    "date":"October-2023",
+    "links": {
+      "view": "https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs127/Course/NPTEL23CS127S53110022220274476.pdf"
+    }
+  },
+  {
+    "name": "Short Term Training Program",
+    "issuer": "CHARUSAT University",
+    "image": "cert_sttp",
+    "category": "course",
+    "date":"October-2023",
+    "links": {
+      "view": "https://drive.google.com/file/d/14nfXY1W02KD5W0P3eDbSmx1VBIpDQVME/view?usp=sharing"
+    }
+  },
+  {
+    "name": "Introduction to MongoDB",
+    "issuer": "MongoDB",
+    "image": "cert_mongodb",
+    "category": "course",
+    "date":"September-2023",
+    "links": {
+      "view": "https://drive.google.com/file/d/19pHJtGy9xMrF-e6rGrsJb1zyBj3wTOpp/view?usp=sharing"
+    }
+  }
+]

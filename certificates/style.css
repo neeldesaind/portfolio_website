@@ -1,0 +1,721 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none; border: none;
+  text-transform:capitalize;
+  transition: all .2s linear;
+}
+html{
+  font-size: 70%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+  background: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 6.5rem;
+}
+
+*::selection{
+  background: #2b3dda;
+  color: #fff;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+  width: .8rem;
+}
+html::-webkit-scrollbar-track{
+  background: rgb(235, 202, 245);
+}
+html::-webkit-scrollbar-thumb{
+  background: #420177;
+}
+
+header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.7rem 10%;
+  height: 6.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(146,161,176,.3);
+}
+.morebtn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.morebtn .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: .5em;
+  transition: 0.5s;
+  color: #fff;
+  background: #007bff;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+  text-align: center;
+}
+.morebtn .btn span {
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: 'Nunito', sans-serif;
+}
+.morebtn .btn i {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.morebtn .btn:hover{
+  background: #1a047e;
+}
+.morebtn .btn:hover i {
+  transform: translateX(-8px);
+}
+
+@media screen and (max-width: 600px) {
+  .experience .timeline::after {
+  left: 31px;
+  }
+  .experience .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  .experience .container::before {
+  left: 60px;
+  border: medium solid #f68c09;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #f68c09 transparent transparent;
+  }
+  .experience .left::after {
+    left: 15px;
+  }
+  .experience .right::after {
+    left: 15px;
+  }
+  .experience .right {
+  left: 0%;
+  }
+  .experience .container::after {
+    font-size: 2.2rem;;
+  }
+}
+section{
+  min-height: 70vh;
+  padding: 2rem 9%;
+}
+section:first-of-type{
+  margin-top: 0rem; /* Match the header's height */
+}
+
+.heading{
+  font-size: 3.5rem;
+  color: rgb(32, 32, 32);
+  font-weight: 800;
+  text-align: center;
+}
+.heading span{
+  color: rgb(115, 3, 167);
+}
+header .logo{
+  font-size: 2.0rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: #0E2431;
+}
+header .logo i {
+  font-size: 2.2rem;
+}
+header .logo:hover {
+  color: #fc8c05;
+}
+header .navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navbar li{
+  margin-left: 2.5rem;
+}
+header .navbar ul li a{
+  font-size: 1.57rem;
+  color: #0E2431;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+}
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+  color: #011aff;
+  border-bottom: .2rem solid #011aff;
+  padding: .5rem 0;
+}
+
+#menu{
+  font-size: 3rem;
+  cursor: pointer;
+  color: rgb(24, 2, 63);
+  display: none;
+}
+@media(max-width:768px){
+  #menu{
+      display: block;
+  }
+  header .navbar{
+    position: fixed;
+    top: 6.5rem; right: -120%;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: #0e0f31;
+  }
+  header .navbar ul{
+    flex-flow: column;
+    padding: 1rem;
+  }
+  header .navbar ul li{
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    width: 26rem;
+  }
+  header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+  }
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover{
+    padding: 1rem;
+    color: #fff;
+    border-radius: .5rem;
+    border-bottom: .5rem solid #011aff;
+  }
+  .fa-times{
+    transform: rotate(180deg);
+  }
+  header .navbar.nav-toggle{
+    right: 0;
+  }
+}
+.logo {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem; /* Adjust this value for logo size */
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+header .logo i {
+  font-size: 3rem; /* Adjust this value for icon size */
+}
+
+/* Hover effect for logo */
+header .logo:hover {
+  color: #fc8c05;
+  transform: scale(1.05) rotate(-2deg);
+}
+
+
+.work {
+  background: linear-gradient(to bottom, #010136, #00003a);
+  margin-top: 0; /* Removed extra margin */
+}
+.work h2{
+  color: #fff;
+  padding: 1rem;
+}
+.work .heading span{
+  color: rgb(255, 230, 0);
+}
+.work .button-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem;
+  margin: 2rem auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.work .button-group .btn{
+  outline: none;
+  padding: 1rem 2rem;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.work .button-group .btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.work .button-group .btn.is-checked{
+  background-color: #fff;
+  color: #000;
+}
+.work .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin: 2rem;
+}
+.work .box-container .box{
+  flex:1 1 30rem;
+  border-radius: .5rem;
+  box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
+  position: relative;
+  overflow:hidden;
+  height:30rem;
+  background: #fff;
+  border: none;
+}
+.work .box-container .box img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+.work .box-container .box .content{
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top:85%; left:0;
+  background:rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+.work .box-container .box .content .tag{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  width: 100%;
+  padding-left: 1rem;
+  background: #ffd900;
+}
+.work .box-container .box .content .tag h3{
+  font-size: 2rem;
+}
+.work .box-container .box:hover .content{
+  top: 25%;
+}
+.work .desc {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.work .desc p{
+  font-size: 1.5rem;
+}
+.work .desc .btns{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+.work .desc .btns .btn{
+  line-height: 0;
+  display: inline;
+  padding: 1.5rem 2.5rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: rgb(12, 12, 12);
+  margin-right: 2rem;
+}
+.work .desc .btns .btn:hover{
+  background: #310ae0f5;
+}
+
+@media screen and (max-width: 450px) {
+  .work .button-group{
+    width: 100%;
+  }
+  .work .box-container{
+    margin: 0rem;
+  }
+  .work .box-container .grid-item .box{
+    width: 95% !important;
+  }
+}
+
+.backbtn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+.backbtn .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: .5em;
+  transition: 0.3s;
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 4px rgba(48, 68, 247, .3);
+  text-align: center;
+}
+.backbtn .btn span {
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: 'Nunito', sans-serif;
+}
+.backbtn .btn i {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.backbtn .btn:hover{
+  background: #ffffff;
+  color: #000;
+}
+.backbtn .btn:hover i {
+  transform: translateX(-8px);
+}
+
+@media(max-width:450px){
+  html{
+    font-size: 55%;
+  }
+  body{
+    padding-right: 0;
+  }
+  section{
+    padding: 2rem;
+  }
+}
+
+#scroll-top{
+  position: fixed;
+  top: -140%;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  background: #ffae00;
+  color: rgb(13, 0, 44);
+  border-radius: 5rem;
+  transition: 1s linear;
+  z-index: 1000;
+}
+#scroll-top.active{
+  top: calc(100% - 12rem);
+}
+
+/* Section for Certifications */
+.certifications {
+  padding: 0px;  /* Ensure no extra padding in the section */
+  margin-top: 0px;  /* You can adjust this if needed */
+}
+
+.certifications .heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;  /* Adjust the space below the heading */
+}
+
+.certifications .heading span {
+  color: #3498db;
+}
+
+/* Main Card Container */
+.main-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Inner Cards Container (Grid Layout for Proper Alignment) */
+.inner-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Individual Card Styling */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 380px; /* Max width of individual card */
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* Fixed height for images */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+  background-color: #2980b9;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* For Mobile Screens */
+@media screen and (max-width: 768px) {
+  .certifications .heading {
+      font-size: 2rem;
+  }
+
+  .card h3 {
+      font-size: 1.2rem;
+  }
+
+  .card p {
+      font-size: 0.9rem;
+  }
+}
+
+/* For Larger Screens */
+@media screen and (min-width: 1200px) {
+  .certifications .heading {
+      font-size: 3rem;
+  }
+}
+
+/* Featured Section Styles */
+#featured {
+  padding: 00px 0;
+  background-color: #f7f7f7;
+}
+
+#featured h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#featured-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.card-content .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.card-content .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Container to center the button */
+#show-more-container {
+  display: flex;
+  justify-content: center;  /* Horizontally center */
+  align-items: center;      /* Vertically center */
+  height:20vh;            /* Full viewport height */
+}
+
+/* Styling for the button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn i {
+  margin-left: 8px;
+}
+
+.featured {
+  padding-top: 70px;  /* Adjust the value as needed depending on the height of your menu */
+}
+
+/* Optional: Adjust for mobile responsiveness */
+@media (max-width: 768px) {
+  .featured {
+    padding-top: 60px;  /* Smaller padding for mobile view */
+  }
+}
+.featured-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Reduced space between cards */
+  justify-content: center;
+  align-items: flex-start; /* Cards align at the top */
+}
+
+.featured-item {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px; /* Allow cards to be responsive with 300px minimum width */
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.featured-item:hover {
+  transform: translateY(-10px);
+}
+
+.featured-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.featured-item .item-content {
+  padding: 0.8rem; /* Reduced padding */
+}
+
+.featured-item .item-content h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.featured-item .item-content p {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.featured-item .item-content .btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.featured-item .item-content .btn:hover {
+  background-color: #0056b3;
+}
+
+#view-more-btn-container {
+  text-align: center; /* Centers the button horizontally */
+  margin-top: 20px; /* Optional: Add space above the button */
+}
+
+#view-more-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block; /* Ensures the button behaves as an inline element */
+}
+
+#view-more-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
