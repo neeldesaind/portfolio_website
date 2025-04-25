@@ -69,6 +69,3 @@ This project is licensed under the [MIT License](https://github.com/neeldesaind/
 - [Particles.js](https://vincentgarreau.com/particles.js/)
 - [Google Fonts](https://fonts.google.com/)
 
-### Contact
-
-For questions or collaborations, reach out via email at `neel.desai1653@gmail.com` or connect on [LinkedIn](https://www.linkedin.com/in/neeldesaind/).
